@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horas trabalhados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Calculadora de horas trabalhados</h2>
+    <!-- local de entrada dos valores-->
+    <div id="area1">
+        <div id="inserir">
+        <p><label for="entrada1">Entrada:</label>
+            <input type="time" name="entrada1" id="entrada1">
+        </p>
+        <p><label for="saida1">Saída:</label>
+            <input type="time" name="saida1" id="saida1">
+        </p>
+        <p><label for="entrada2">Entrada:</label>
+            <input type="time" name="entrada12" id="entrada2">
+        </p>
+        <p><label for="entrada1">Saída:</label>
+            <input type="time" name="saida2" id="saida2">
+        </p>
+        <!-- Botão do evento-->
+        <p><input type="button" value="Registra" onclick="horasTrabalhadas()" class="regis"></p>
+        </div></div>
+    <div id="area2">
+
+        <!-- Saida do resultado final-->
+         <p id="res"></p>
+
+    </div>
+    <script src="java.js"></script>
+</body>
+
+</html>
